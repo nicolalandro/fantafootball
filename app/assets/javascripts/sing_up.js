@@ -1,12 +1,3 @@
-//show password
-$(document).ready(function(){
-    $("#pw").focus(function(){
-        this.type = "text";
-    }).blur(function(){
-        this.type = "password";
-    })
-});
-
 //Placeholder fixed for Internet Explorer
 $(function() {
     var input = document.createElement("input");
