@@ -1,5 +1,4 @@
 Rails.application.routes.draw do
-  get 'sing_up/index'
-
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  get '/', to: 'sign_up#index'
+  post '/api/login_check', to: 'sign_up#action'
 end
